@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <title>CREATE NEW TEMPLATE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <script src="main.js" async></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="logo.png" style="width:110%;" alt="Robot Nordic logo"> <!--Kilde: robotnordic.dk-->
+    </div>
+    <div class="btn-toggle-nav" onclick="toggleNav()">
+      <img src="hammenu.png" style="width:15%;" alt="Robot Nordic logo"> <!--Kilde: robotnordic.dk-->
+    </div>
+  </div>
+  <div class="nav-sidebar">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="newtemplate.html">CREATE NEW TEMPLATE</a></li>
+      <li><a href="controlpanelsyl.html">LAYOUT & CONTROL PANEL</a></li>
+      <li><a href="#" style="color:#56595C;">Login</a></li>
+    </ul>
+  </div>
+  <div class="grid-container">
+   <h1 class="orangetekst">Create New Template</h1>
+   <fieldset>
+    <form name="form1" action="#" onsubmit="required()">
+   <h1 class="tekst1"> Indtast de nødvendige værdier </h1>
+    <input type="text" placeholder="Mønster navn">
+    <br>
+    <br>
+    <input type="text" placeholder="Palle type">
+    </form>
+  </fieldset>
+    <fieldset>
+      <h1 class="tekst1"> Fyldninger:</h1>
+     <input type="text" placeholder="Højde">
+     <br>
+     <br>
+     <input type="text" placeholder="Procent">
+     <br>
+     <br>
+     <input type="text" placeholder="Tilladt udhæng">
+</fieldset>
+<fieldset>
+  <h1 class="tekst1"> Palle mål:</h1>
+ <input type="text" placeholder="Palle bredde">
+ <br>
+ <br>
+ <input type="text" placeholder="Palle højde">
+ <br>
+ <br>
+ <input type="text" placeholder="Palle længde">
+</fieldset>
+<fieldset>
+   <h1 class="tekst1"> Placering:</h1>
+   <label class="containe">
+     <input type="checkbox">
+     <span class="checkmark">Top</span>
+   </label>
+   <br>
+   <br>
+   <label class="containe">
+     <input type="checkbox">
+     <span class="checkmark">Bund</span>
+   </label>
+   <br>
+   <br>
+   <label class="containe">
+     <input type="checkbox">
+     <span class="checkmark">Forsigtigt</span>
+   </label>
+ </fieldset>
+ <fieldset>
+    <h1 class="tekst1">Produkt:</h1>
+   <input type="text" placeholder="Produkt">
+   <form id="form" action="#"></form>
+ <button id="btn1" type="button">+</button>
+  </fieldset>
+ <fieldset>
+  <div class=btn2>
+   <button onclick="document.location = 'controlpanelsyl.html'">Load Layout</button>
+  </div>
+ </fieldset>
+ </div>
+</body>
+</html>
