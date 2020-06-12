@@ -93,4 +93,11 @@ function alert() {
     addInput();
   }.bind(this));
 })();
+
+
+//popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 //slut
