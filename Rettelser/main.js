@@ -96,7 +96,7 @@ function alert() {
 
 
 //popup
-function myFunction() {
+function popupFunction() {
   let popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
