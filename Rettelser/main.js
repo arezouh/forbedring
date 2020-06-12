@@ -97,7 +97,7 @@ function alert() {
 
 //popup
 function myFunction() {
-  var popup = document.getElementById("myPopup");
+  let popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
 //slut
