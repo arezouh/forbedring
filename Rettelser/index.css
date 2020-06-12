@@ -22,11 +22,10 @@ body {
 }
 /*navigationen*/
 .nav-sidebar {
-  position: fixed;
+  position: absolute;
   right: 0;
-  bottom: 0;
-  height: calc(100vh - 60px);
-  z-index: 1000;
+  bottom: 50;
+  z-index: 1;
 }
 .nav-sidebar ul {
   margin-top: auto;
