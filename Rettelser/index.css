@@ -454,7 +454,7 @@ input[type=text]{
   border-color: #555;
 }
 
-/* The actual popup */
+/* den 'rigtig' popup */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
@@ -474,7 +474,7 @@ input[type=text]{
   font-family: helvetica;
 }
 
-/* Toggle this class - hide and show the popup */
+/* til ar gemme og vise  */
 .popup .show {
   visibility: visible;
 }
